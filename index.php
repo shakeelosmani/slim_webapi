@@ -10,8 +10,8 @@
 	
 	// reuired for mailing
 	$transport = Swift_SmtpTransport::newInstance('smtp.gmail.com', 587, 'tls')
-	->setUsername('oliviersonline@gmail.com')
-	->setPassword('franck1234')
+	->setUsername('xyz@gmail.com') // use ur gmail
+	->setPassword('abc***') // use your gmail pass
 	;
 
 	$mailer = Swift_Mailer::newInstance($transport);
